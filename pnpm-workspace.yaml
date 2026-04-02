@@ -1,0 +1,7 @@
+packages:
+  # Contains all reusable libraries and frontend SDKs
+  - 'packages/*'
+  # Contains backend deployables (to be added later)
+  - 'services/*'
+  # Contains testable integrations
+  - 'examples/*'
