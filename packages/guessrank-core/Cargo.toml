@@ -1,0 +1,13 @@
+[package]
+name = "guessrank-core"
+version = "0.1.0"
+edition = "2024"
+description = "Core Rust evaluation engine for OpaqueAuth GuessRank"
+
+[lib]
+# 'cdylib' enables compilation as .wasm.
+# 'rlib' will allow us to still produce a standard Rust library(will be used for the backend microservice).
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2.117"
