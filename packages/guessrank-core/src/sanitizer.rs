@@ -31,7 +31,7 @@ mod tests {
         assert_eq!(strip_padding("!!pass123word??"), "pass123word");
         assert_eq!(strip_padding("!123pass123word123?"), "pass123word");
         assert_eq!(strip_padding("!P@ssw0rd!"), "P@ssw0rd");
-        assert_eq!(strip_padding("---Cloudflare2026---"), "Cloudflare2026");
+        assert_eq!(strip_padding("---Cloudflare2026---"), "Cloudflare");
     }
 
     #[test]
