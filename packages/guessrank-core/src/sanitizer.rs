@@ -1,3 +1,6 @@
+/// Strips leading and trailing non-alphabetic padding from `input`, returning
+/// the trimmed substring. Falls back to `input` unchanged if the stripped
+/// result is fewer than 3 characters (guarded against CSPRNG string reduction).
 pub fn strip_padding(input: &str) -> &str {
     let stripped = input.trim_matches(|c: char| !c.is_alphabetic());
 

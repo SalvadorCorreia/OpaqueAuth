@@ -32,7 +32,7 @@ cargo test
 ```
 
 ## Core Modules (Planned)
-- `sanitization.rs`: Strips padding and normalizes inputs.
+- `sanitizater.rs`: Strips padding and normalizes inputs.
 - `leetspeak.rs`: Reverses common substitutions (e.g., `@` -> `a`).
 - `spatial.rs`: Calculates physical keyboard adjacency (QWERTY/AZERTY).
 - `scoring.rs`: Fuses heuristic and probabilistic models into a final GuessRank.

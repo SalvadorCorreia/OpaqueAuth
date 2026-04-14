@@ -3,5 +3,5 @@ packages:
   - 'packages/*'
   # Contains backend deployables (to be added later)
   - 'services/*'
-  # Contains testable integrations
+  # Contains testable integrations (to be added later)
   - 'examples/*'

@@ -2,6 +2,9 @@
 target/
 Cargo.lock
 
+# pnpm build artifacts
+node_modules/
+
 # IDE - NeoVim
 *.swp
 *.swo

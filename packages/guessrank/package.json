@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "A WebAssembly-powered, state-of-the-art password guessability evaluator.",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": ["password", "strength", "wasm", "security", "zxcvbn-alternative"],
   "author": "SalvadorCorreia",
   "license": "MIT"
