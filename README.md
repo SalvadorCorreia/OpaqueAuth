@@ -21,3 +21,6 @@ This drastic change can also be seen in standards such as NIST Special Publicati
 | Composition | Mandatory mix of types (A, a, 1, !) | No composition rules allowed | Forced complexity creates predictable, algorithmic human substitution patterns. |
 | Expiration | 30 to 90 days | Only upon known compromise | Frequent rotation forces minor iterations (e.g., Pass1 to Pass2), degrading security. |
 | Screening | None | Mandatory breached blocklist | Protects against credential stuffing by eliminating known vulnerability points. |
+
+This paradigm shift is further reinforced by the OWASP Top 10:2025 guidelines, which maintain "Authentication Failures" as a critical vulnerability vector.
+Echoing the NIST specifications, OWASP mandates the screening of passwords against known breached credentials and common dictionaries.
