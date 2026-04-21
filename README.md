@@ -1,5 +1,5 @@
 # OpaqueAuth
-OpaqueAuth is an open-source project that aims to bring state-of-the-art, zero-trust password verification to all web applications. This will be achieved through the development of a client-side WebAssembly environment without backend telemetry.
+OpaqueAuth is an open-source project that aims to bring state-of-the-art, client-side password verification to all web applications. This will be achieved through the development of a WebAssembly environment without backend telemetry. This will prevent traffic interception for offline cracking attacks.
 
 ## Contextualization
 In recent years, the landscape of password strength evaluation has irrevocably shifted. This section documents this structural paradigm shift and introduces the current state-of-the-art for password strength verification, justifying the technologies selected for our implementation. 
@@ -22,11 +22,11 @@ This drastic change can also be seen in standards such as NIST Special Publicati
 | Expiration | 30 to 90 days | Only upon known compromise | Frequent rotation forces minor iterations (e.g., Pass1 to Pass2), degrading security. |
 | Screening | None | Mandatory breached blocklist | Protects against credential stuffing by eliminating known vulnerability points. |
 
-This paradigm shift is further reinforced by the OWASP Top 10:2025 guidelines, which maintain "Authentication Failures" as a critical vulnerability vector.
+This paradigm shift is further reinforced by the OWASP Top 10: 2025 guidelines, which maintain "Authentication Failures" as a critical vulnerability vector.
 Echoing the NIST specifications, OWASP mandates the screening of passwords against known breached credentials and common dictionaries[5].
 
-[1] Melicher, W., Ur, B., Segreti, S. M., Bauer, L., Christin, N., & Cranor, L. F. (2017). Better passwords through science (and neural networks). *USENIX ;login: Winter 2017*, 42(4).
-[2] Wheeler, D. (2012). zxcvbn: realistic password strength estimation. *Dropbox.Tech*. 
-[3] de Castro, L., Lang, H., Liu, S., & Mata, C. (2017). Modeling Password Guessing with Neural Networks. *Massachusetts Institute of Technology*.
-[4] Temoshok, D., Fenton, J. L., Choong, Y.-Y., Lefkovitz, N., Regenscheid, A., Galluzzo, R., & Richer, J. P. (2025). Digital Identity Guidelines: Authentication and Authenticator Management. *NIST Special Publication 800-63B-4*.
-[5] OWASP Foundation. (n.d.). Authentication Cheat Sheet. *OWASP Cheat Sheet Series*.
+  * [1] Melicher, W., Ur, B., Segreti, S. M., Bauer, L., Christin, N., & Cranor, L. F. (2017). Better passwords through science (and neural networks).*USENIX ;login: Winter 2017*, 42(4).
+  * [2] Wheeler, D. (2012). zxcvbn: realistic password strength estimation. *Dropbox.Tech*. 
+  * [3] de Castro, L., Lang, H., Liu, S., & Mata, C. (2017). Modeling Password Guessing with Neural Networks. *Massachusetts Institute of Technology*.
+  * [4] Temoshok, D., Fenton, J. L., Choong, Y.-Y., Lefkovitz, N., Regenscheid, A., Galluzzo, R., & Richer, J. P. (2025). Digital Identity Guidelines: Authentication and Authenticator Management. *NIST Special Publication 800-63B-4*.
+  * [5] OWASP Foundation. (n.d.). Authentication Cheat Sheet. *OWASP Cheat Sheet Series*.
