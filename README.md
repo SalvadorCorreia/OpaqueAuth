@@ -1,5 +1,5 @@
 # OpaqueAuth
-OpaqueAuth is an open-source project that aims to bring state-of-the-art, client-side password verification to all web applications. This will be achieved through the development of a WebAssembly environment without backend telemetry. This will prevent traffic interception for offline cracking attacks.
+OpaqueAuth is an open-source project that aims to bring state-of-the-art, client-side password verification to all web applications. This will be achieved through the development of a WebAssembly environment without backend telemetry. This will prevent traffic interception for offline cracking attacks. This project is on hold.
 
 ## Contextualization
 In recent years, the landscape of password strength evaluation has irrevocably shifted. This section documents this structural paradigm shift and introduces the current state-of-the-art for password strength verification, justifying the technologies selected for our implementation. 
